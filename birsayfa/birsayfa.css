@@ -1,16 +1,16 @@
-html{
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E');
-    background-color: rgb(249, 228, 198); ;
+html {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E');
+  background-color: rgb(249, 228, 198);
 }
-.float-parent-element { 
-    width: 100%; 
-} 
-.float-child-element { 
-    float: left; 
-    width: 50%; 
-} 
-.solsablon {   
-  height: 2000px; 
+.float-parent-element {
+  width: 100%;
+}
+.float-child-element {
+  float: left;
+  width: 50%;
+}
+.solsablon {
+  height: 2000px;
   width: 300px;
   border: 7px solid rgb(76, 165, 159);
   padding: 50px;
@@ -20,11 +20,11 @@ html{
   display: inline-block;
   padding-left: 0;
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E');
-} 
-.sagsablon { 
-  margin-left: 50%; 
-  height: 100px;  
-  height: 2000px; 
+}
+.sagsablon {
+  margin-left: 50%;
+  height: 100px;
+  height: 2000px;
   width: 300px;
   border: 7px solid rgb(176, 241, 176);
   padding: 50px;
@@ -34,56 +34,53 @@ html{
   display: inline-block;
   padding-right: 0;
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E');
-} 
+}
 img {
-    max-width: 300px;   
-    position: bottom;
-    margin: 25
-    }
+  max-width: 300px;
+  position: bottom;
+  margin: 25;
+}
 h1,
 h2,
 h3 {
-        font-family: sans-serif;
-        font-style: italic;
-    
-    }
+  font-family: sans-serif;
+  font-style: italic;
+}
 a {
-    color: rgba(14, 42, 41, 0.707);
+  color: rgba(14, 42, 41, 0.707);
 }
 h4 {
-    color: rgba(40, 188, 233, 0.669);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: larger;
+  color: rgba(40, 188, 233, 0.669);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 14px;
 }
 .app {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(14, 42, 41, 0.707);
-    font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(14, 42, 41, 0.707);
+  font-size: 15px;
 }
 br {
-    text-align: justify;
-    margin: 0px;
+  text-align: justify;
+  margin: 0px;
 }
 ul li {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0 auto;
-
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 auto;
 }
 ul {
-    text-align: center;
-
+  text-align: center;
 }
