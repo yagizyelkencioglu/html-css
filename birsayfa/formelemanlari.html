@@ -1,0 +1,57 @@
+<html>
+    <link rel="stylesheet" href="formelemanlari.css">
+      
+<head>
+      <title>
+        Formu doldurun
+      </title>
+  </head> 
+<body>
+    <ul>
+        <li><a class="anasayfa"href="birsayfa.html">Anasayfa</a></li>
+        <li><a class="videolar"href="videolar.html">Sahneden</a></li>
+        <li><a class="iletisim"href="formelemanlari.html">İletişim</a></li>
+    </ul>  
+    <form action="https://httpbin.org/post" method="post">
+       <div class="form-row">
+        <label for="adi">Adı :</label>
+        <input name="adi" id="adi" type="text" required placeholder="Ahmet Yılmaz">
+       </div>
+
+       <div class="form-row">
+        <label for="tel">Telefon :</label>
+        <input name="tel" id="tel" type="tel"required>
+       </div>
+
+       <div class="form-row">
+        <label for="email">Email :</label>
+        <input name="email" id="email" type="email"required>
+       </div>
+
+       <div class="form-row">
+           <label for="mesaj">Mesaj :</label>
+           <textarea name="mesaj" id="mesaj" cols="50" rows="3"></textarea>
+       </div>
+
+       <div class="form-row">
+           <label for="sehir">Şehir :</label>
+           <select name="sehir" id="sehir" name="sehir">
+               <option value="istanbul">İstanbul</option>
+               <option value="İzmir">İzmir</option>
+               <option value="Eskişehir">Eskişehir</option>
+           </select>
+       </div>
+
+       <div class="form-row">
+           <p>Sevdiğiniz Renk</p>
+           <div class="radio-container"><label><input type="radio" name="renk" value="kırmızı" checked/>Kırmızı</label>
+            <label><input type="radio" name="renk" value="yesil" checked/>Yeşil</label>      </div>
+        </div>
+
+       <div class="form-row">
+           <button type="reset">Sıfırla</button>
+           <button type="submit">Gönder</button>
+       </div>
+    </form>
+</body>
+</html>
